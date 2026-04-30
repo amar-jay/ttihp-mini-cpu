@@ -21,19 +21,14 @@ The design emphasizes:
 
 ### Instruction Set Architecture (ISA)
 
-**Instruction Format:** `[7:5] Opcode | [4:0] Operand`
-<!-- ![format](./format.svg)-->
-<div align="center"><img src="./format.svg" width=600/></div>
+**Instruction Format:**
+![format](./format.svg)
 
 **Core Instructions:**
-<!-- ![instructions](./opcode.svg) -->
-<div align="center"><img src="./opcode.svg" width=600/></div>
-
+![instructions](./opcode.svg)
 
 **ALU Sub-operations (opcode 011):**
-<!-- ![alu subops](./alu.svg) -->
-<div align="center"><img src="./alu.svg" width=600/></div>
-
+![alu subops](./alu.svg)
 
 ### Architecture & Program Behavior
 
