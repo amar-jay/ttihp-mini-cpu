@@ -36,7 +36,8 @@ The design emphasizes:
 * Combinational ALU producing `next_a`
 * Synchronous register updates on enabled clock edges
 * ROM implemented as combinational case statement
-* 4-bit clock divider for human-visible timing
+* 4-bit clock divider for human-visible timing (16x division)
+* Designed for a **100 kHz** clock, resulting in a smooth ~40 Hz LED update rate for the scanner program.
 
 The included ROM program implements a **bidirectional LED scanning pattern**:
 1. Load value 1 into accumulator
